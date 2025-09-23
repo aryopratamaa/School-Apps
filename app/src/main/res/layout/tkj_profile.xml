@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    tools:context=".ui.home.TkjProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_marginTop="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/foto_tkj"
+            android:scaleType="centerCrop"
+            android:contentDescription="Foto Program TKJ" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Program Keahlian TKJ"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TKJ (Teknik Komputer dan Jaringan) adalah program keahlian yang fokus pada instalasi, konfigurasi, dan perawatan perangkat keras komputer serta jaringan komputer. Siswa dibekali pengetahuan tentang jaringan LAN, WAN, sistem keamanan jaringan, dan troubleshooting perangkat keras."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kompetensi yang Diajarkan:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Instalasi dan Konfigurasi Jaringan\n• Administrasi Sistem Jaringan\n• Keamanan Jaringan\n• Pemeliharaan Perangkat Keras\n• Troubleshooting Jaringan\n• Manajemen Server\n• Virtualisasi Jaringan"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

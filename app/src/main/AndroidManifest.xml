@@ -23,6 +23,9 @@
         </activity>
         <activity android:name=".ui.home.PplgProfile"
             tools:ignore="Instantiatable,MissingClass" />
+        <activity android:name=".ui.home.TkjProfile"
+            tools:ignore="Instantiatable,MissingClass" />
+
     </application>
 
 </manifest>

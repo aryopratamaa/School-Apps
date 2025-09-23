@@ -30,6 +30,11 @@ class HomeFragment : Fragment() {
             startActivity(intent)
         }
 
+        binding.btnTkj.setOnClickListener {
+            val intent = android.content.Intent(requireContext(), TkjProfile::class.java)
+            startActivity(intent)
+        }
+
         return root
     }
 
