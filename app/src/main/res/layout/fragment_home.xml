@@ -78,6 +78,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
+                        android:textSize="11sp"
                         android:text="Puji dan syukur kami panjatkan kepada Tuhan yang maha kuasa, Tuhan Yang Maha esa yang telah memberikan rahmat dan anugerah-Nya sehingga website SMK Negeri 1 Air Putih ini dapat terbit dalam rangka memajukan pendidikan SMK Negeri 1 Air Putih khususnya dan masyarakat."
                         android:justificationMode="inter_word"/>
                 </LinearLayout>
