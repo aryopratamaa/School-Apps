@@ -9,25 +9,13 @@
     android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SMK NEGERI 1 AIR PUTIH"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="20dp"
-        android:textColor="@color/black"
-
-        />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:src="@drawable/profil"
         android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
         />
 
     <TextView
@@ -51,25 +39,158 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="#E0E0E0">
-
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        >
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            orientation="horizontal"
+            android:orientation="horizontal"
+            android:padding="15dp"
             >
             <ImageView
                 android:layout_width="110dp"
                 android:layout_height="150dp"
                 android:src="@drawable/kepsek"
                 android:scaleType="centerCrop"
-                android:padding="center"
                 />
-
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SAMBUTAN KEPALA SEKOLAH"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingBottom="6dp"
+                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:text="Puji dan syukur kami panjatkan kepada Tuhan yang maha kuasa, Tuhan Yang Maha esa yang telah memberikan rahmat dan anugerah-Nya sehingga website SMK Negeri 1 Air Putih ini dapat terbit dalam rangka memajukan pendidikan SMK Negeri 1 Air Putih khususnya dan masyarakat."
+                    android:justificationMode="inter_word"
+                    />
+            </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROGRAM KEAHLIAN"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TKJ"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PPLG"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TKRO"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TBKR"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TBSM"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TKI"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:background="#0071AB">
+
+
+
+</LinearLayout>
 
 </LinearLayout>
